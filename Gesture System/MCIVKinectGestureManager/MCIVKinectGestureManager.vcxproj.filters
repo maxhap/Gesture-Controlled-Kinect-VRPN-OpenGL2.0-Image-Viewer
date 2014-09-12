@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Defs">
+      <UniqueIdentifier>{4e6cdf8d-8131-4aeb-a5c2-e57e00f96c4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Gestures">
+      <UniqueIdentifier>{b089bfb1-0382-4104-90b7-111f2703ec41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Gestures">
+      <UniqueIdentifier>{88ec9823-93a4-4550-af12-b7edfab939f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Gestures\Actions">
+      <UniqueIdentifier>{6d6123f6-ab70-4cfc-a95c-06b3affa8cdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Gestures\Actions">
+      <UniqueIdentifier>{e3ffe13c-5a16-4f87-8602-cade478847e8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MCIVKinectGestureManagerDEFS.h">
+      <Filter>Header Files\Defs</Filter>
+    </ClInclude>
+    <ClInclude Include="MCIVKinectGestureManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GestureCONSTS.h">
+      <Filter>Header Files\Defs</Filter>
+    </ClInclude>
+    <ClInclude Include="Action.h">
+      <Filter>Header Files\Gestures\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="AndAction.h">
+      <Filter>Header Files\Gestures\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="PositionAction.h">
+      <Filter>Header Files\Gestures\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="VelocityAction.h">
+      <Filter>Header Files\Gestures\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="Gesture.h">
+      <Filter>Header Files\Gestures</Filter>
+    </ClInclude>
+    <ClInclude Include="OrAction.h">
+      <Filter>Header Files\Gestures\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="ConditionalVelocityAction.h">
+      <Filter>Header Files\Gestures\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeAction.h">
+      <Filter>Header Files\Gestures\Actions</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MCIVKinectGestureManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Action.cpp">
+      <Filter>Source Files\Gestures\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="PositionAction.cpp">
+      <Filter>Source Files\Gestures\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="VelocityAction.cpp">
+      <Filter>Source Files\Gestures\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="AndAction.cpp">
+      <Filter>Source Files\Gestures\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="Gesture.cpp">
+      <Filter>Source Files\Gestures</Filter>
+    </ClCompile>
+    <ClCompile Include="OrAction.cpp">
+      <Filter>Source Files\Gestures\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="ConditionalVelocityAction.cpp">
+      <Filter>Source Files\Gestures\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeAction.cpp">
+      <Filter>Source Files\Gestures\Actions</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

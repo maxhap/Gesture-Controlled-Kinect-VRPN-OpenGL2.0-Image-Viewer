@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3F9666DA-8B83-4386-B0BC-16F24D9FAE1A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MCIVGestureBuilder</RootNamespace>
+    <AssemblyName>MCIVGestureBuilder</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Action\Action.cs" />
+    <Compile Include="Action\AndAction.cs" />
+    <Compile Include="Action\ConditionalVelocityAction.cs" />
+    <Compile Include="Action\TimeAction.cs" />
+    <Compile Include="Windows\BuildAndGesture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\BuildAndGesture.Designer.cs">
+      <DependentUpon>BuildAndGesture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\BuildOrGesture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\BuildOrGesture.Designer.cs">
+      <DependentUpon>BuildOrGesture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\BuildPositionAction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\BuildPositionAction.Designer.cs">
+      <DependentUpon>BuildPositionAction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\BuildTimeAction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\BuildTimeAction.Designer.cs">
+      <DependentUpon>BuildTimeAction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\BuildVelocityAction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\BuildVelocityAction.Designer.cs">
+      <DependentUpon>BuildVelocityAction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\BuildConditionalVelocityAction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\BuildConditionalVelocityAction.Designer.cs">
+      <DependentUpon>BuildConditionalVelocityAction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\HelpWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\HelpWindow.Designer.cs">
+      <DependentUpon>HelpWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\MainWnd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\MainWnd.Designer.cs">
+      <DependentUpon>MainWnd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gesture.cs" />
+    <Compile Include="Windows\Input.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\Input.Designer.cs">
+      <DependentUpon>Input.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Logic.cs" />
+    <Compile Include="Action\OrAction.cs" />
+    <Compile Include="Action\PositionAction.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Skeliton.cs" />
+    <Compile Include="Action\VelocityAction.cs" />
+    <EmbeddedResource Include="Windows\BuildAndGesture.resx">
+      <DependentUpon>BuildAndGesture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\BuildOrGesture.resx">
+      <DependentUpon>BuildOrGesture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\BuildPositionAction.resx">
+      <DependentUpon>BuildPositionAction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\BuildTimeAction.resx">
+      <DependentUpon>BuildTimeAction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\BuildVelocityAction.resx">
+      <DependentUpon>BuildVelocityAction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\BuildConditionalVelocityAction.resx">
+      <DependentUpon>BuildConditionalVelocityAction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\HelpWindow.resx">
+      <DependentUpon>HelpWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\MainWnd.resx">
+      <DependentUpon>MainWnd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Input.resx">
+      <DependentUpon>Input.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

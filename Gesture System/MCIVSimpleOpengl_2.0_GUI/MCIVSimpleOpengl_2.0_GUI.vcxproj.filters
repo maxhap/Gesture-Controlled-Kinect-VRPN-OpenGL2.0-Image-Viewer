@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Engine">
+      <UniqueIdentifier>{b2d473ae-0bc9-4b2a-84a3-5f4a55343841}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{09ff2f10-4934-4aa5-bf41-ff626e8737e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Misc">
+      <UniqueIdentifier>{3f5687b5-0e0e-40d3-82a0-1548b84f884d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Carousel">
+      <UniqueIdentifier>{34d1361b-45aa-4999-9a4e-96bace1ede9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Carousel">
+      <UniqueIdentifier>{9c4b99c1-5d80-42f4-8a44-996a0b1e66a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Misc">
+      <UniqueIdentifier>{64fdc3d9-9329-4564-bc02-bf77e4a3105a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DrawableList">
+      <UniqueIdentifier>{f7df9167-4437-4eb4-a35a-81b01bdf303c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DrawableList\StartMenu">
+      <UniqueIdentifier>{9c2b8c31-fd31-4f5c-8bca-d40eccfea43f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects">
+      <UniqueIdentifier>{ce8fbb10-a1f7-4651-97ab-b752de3ff1cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Objects">
+      <UniqueIdentifier>{3a84e256-0fb5-432b-a2ff-5f56b34f374c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DrawableList\BackToMainMenu">
+      <UniqueIdentifier>{bbb62d1a-b2cd-43b8-8295-076f974195c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Carousel\DrawableList">
+      <UniqueIdentifier>{e1b093fa-ef61-476c-84dd-506cccf9c464}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Carousel\DrawableList\StartMenu">
+      <UniqueIdentifier>{600e975e-a6c1-45fe-bd93-1e7a09b10d80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Carousel\DrawableList\BackToMainMenu">
+      <UniqueIdentifier>{0f16efa0-a045-4bb9-b467-c9ebb3dd07fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Flicker">
+      <UniqueIdentifier>{cf2025f0-a45b-48e8-860a-c1d45a921ab6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Flicker">
+      <UniqueIdentifier>{94452555-be3a-40b6-8566-97799d08c763}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTimer.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="LogicEngine.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Initialize.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsTexture.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageLoader.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Carousel.h">
+      <Filter>Header Files\Carousel</Filter>
+    </ClInclude>
+    <ClInclude Include="CarouselItem.h">
+      <Filter>Header Files\Carousel</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawableObject.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawableList.h">
+      <Filter>Header Files\Carousel\DrawableList</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawableListItem.h">
+      <Filter>Header Files\Carousel\DrawableList</Filter>
+    </ClInclude>
+    <ClInclude Include="StartMenu.h">
+      <Filter>Header Files\Carousel\DrawableList\StartMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageCarouselMenuItem.h">
+      <Filter>Header Files\Carousel\DrawableList\StartMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Hand.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="MaxRectangle.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="StartMenuItem.h">
+      <Filter>Header Files\Carousel\DrawableList\StartMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="BackToMainMenu.h">
+      <Filter>Header Files\Carousel\DrawableList\BackToMainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="BackToMainMenuItem.h">
+      <Filter>Header Files\Carousel\DrawableList\BackToMainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageFlickerMenuItem.h">
+      <Filter>Header Files\Carousel\DrawableList\StartMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Flicker.h">
+      <Filter>Header Files\Flicker</Filter>
+    </ClInclude>
+    <ClInclude Include="FlickerItem.h">
+      <Filter>Header Files\Flicker</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MCIVSimpleOpengl_2.0_GUI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTimer.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="LogicEngine.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsTexture.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageLoader.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Carousel.cpp">
+      <Filter>Source Files\Carousel</Filter>
+    </ClCompile>
+    <ClCompile Include="CarouselItem.cpp">
+      <Filter>Source Files\Carousel</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawableObject.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Initialize.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawableList.cpp">
+      <Filter>Source Files\DrawableList</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawableListItem.cpp">
+      <Filter>Source Files\DrawableList</Filter>
+    </ClCompile>
+    <ClCompile Include="StartMenu.cpp">
+      <Filter>Source Files\DrawableList\StartMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageCarouselMenuItem.cpp">
+      <Filter>Source Files\DrawableList\StartMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Hand.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="MaxRectangle.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="StartMenuItem.cpp">
+      <Filter>Source Files\DrawableList\StartMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="BackToMainMenu.cpp">
+      <Filter>Source Files\DrawableList\BackToMainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="BackToMainMenuItem.cpp">
+      <Filter>Source Files\DrawableList\BackToMainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageFlickerMenuItem.cpp">
+      <Filter>Source Files\DrawableList\StartMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Flicker.cpp">
+      <Filter>Source Files\Flicker</Filter>
+    </ClCompile>
+    <ClCompile Include="FlickerItem.cpp">
+      <Filter>Source Files\Flicker</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
